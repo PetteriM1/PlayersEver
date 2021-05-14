@@ -1,0 +1,12 @@
+name: PlayersEver
+main: me.petterim1.playersever.Main
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+commands:
+  playersever:
+    description: Count total amount of players joined the server
+    permission: playersever.command
+permissions:
+  playersever.command:
+    default: op
